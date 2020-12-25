@@ -10,7 +10,7 @@ public class Questions {
 	
 		System.out.println(palindrome(a, 0, a.length()-1));
 		
-//		reverseString(a);
+		reverseString(a);
 	
 	
 	}
@@ -46,10 +46,10 @@ public class Questions {
 		
 	}
 	
-//	public static void main (String[] args) {
-//		int a[] = {1, 2, 3, 5} ;
-//		shuffle(a , 3 , 3);
-//	}
+	public static void main (String[] args) {
+		int a[] = {1, 2, 3, 5} ;
+		shuffle(a , 3 , 3);
+	}
 	
 	static void shuffle(int arr [] , int n , int a ) {
 
