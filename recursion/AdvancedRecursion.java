@@ -8,23 +8,23 @@ public class AdvancedRecursion {
 
 	public static void main(String[] args) {
 		
-//		int a[][] = { 
-//			{1 , 1 , 1 , 2 , 1 , 1 , 1} ,
-//			{2 , 2 , 1 , 2 , 2 , 1 , 1} ,
-//			{0 , 2 , 2 , 2 , 1 , 1 , 1} ,
-//			{1 , 1 , 0 , 2 , 1 , 2 , 2} ,
-//			{1 , 1 , 2 , 2 , 1 , 0 , 0}
-//		};
-//		
-//		floodFill(a , 2 , 3 , 3 , 2);
-//		printMatrix(a);
+		int a[][] = { 
+			{1 , 1 , 1 , 2 , 1 , 1 , 1} ,
+			{2 , 2 , 1 , 2 , 2 , 1 , 1} ,
+			{0 , 2 , 2 , 2 , 1 , 1 , 1} ,
+			{1 , 1 , 0 , 2 , 1 , 2 , 2} ,
+			{1 , 1 , 2 , 2 , 1 , 0 , 0}
+		};
+		
+		floodFill(a , 2 , 3 , 3 , 2);
+		printMatrix(a);
 		
 		String s = "abc" ;
-//		char array[] = s.toCharArray() ;
-//		char temp = array[0] ;
-//		array[0] = array [1] ;
-//		array[1] = temp ;
-//		System.out.println(s.valueOf(array));
+		char array[] = s.toCharArray() ;
+		char temp = array[0] ;
+		array[0] = array [1] ;
+		array[1] = temp ;
+		System.out.println(s.valueOf(array));
 		permutations("aba" , 0 , 2);
 		
 		int a [] = {100, 50, 7, 2};
@@ -41,36 +41,36 @@ public class AdvancedRecursion {
 		
 	}
 	
-//	static void floodFill (int a[][] , int r , int c , int toFill , int prevFill) {
-//		int rows = a.length ;
-//		int cols = a[0].length ;
-//		
-//		if(c < 0 || c >= cols || r < 0 || r >= rows) {
-//			return ;
-//		}
-//		
-//		if(a [r][c] != prevFill) {
-//			return ;
-//		}
-//		
-//		a [r][c] = toFill ;
-//		
-//		floodFill(a , r-1 , c , toFill , prevFill) ;
-//		floodFill(a , r , c-1 , toFill , prevFill) ;
-//		floodFill(a , r+1 , c , toFill , prevFill) ;
-//		floodFill(a , r , c+1 , toFill , prevFill) ;
-//	}
-//	
-//    static void printMatrix(int a[][]) {
-//		int rows = a.length ;
-//		int cols = a[0].length ;
-//		for(int i=0 ; i<rows ; i++) {
-//			for(int j=0 ; j<cols ; j++) {
-//				System.out.print(a[i][j]+" ");
-//			}
-//			System.out.println();
-//		}
-//	}
+	static void floodFill (int a[][] , int r , int c , int toFill , int prevFill) {
+		int rows = a.length ;
+		int cols = a[0].length ;
+		
+		if(c < 0 || c >= cols || r < 0 || r >= rows) {
+			return ;
+		}
+		
+		if(a [r][c] != prevFill) {
+			return ;
+		}
+		
+		a [r][c] = toFill ;
+		
+		floodFill(a , r-1 , c , toFill , prevFill) ;
+		floodFill(a , r , c-1 , toFill , prevFill) ;
+		floodFill(a , r+1 , c , toFill , prevFill) ;
+		floodFill(a , r , c+1 , toFill , prevFill) ;
+	}
+	
+   static void printMatrix(int a[][]) {
+		int rows = a.length ;
+		int cols = a[0].length ;
+		for(int i=0 ; i<rows ; i++) {
+			for(int j=0 ; j<cols ; j++) {
+				System.out.print(a[i][j]+" ");
+			}
+			System.out.println();
+		}
+   }
     
     static void permutations(String s , int l , int r) {
     	if(l == r ) {
