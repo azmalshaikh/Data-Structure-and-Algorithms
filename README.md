@@ -34,7 +34,12 @@
   - [Subsequence of a String](https://github.com/azmalshaikh/Data-Structure-and-Algorithms/blob/master/recursion/Questions.java)
   - [Tower Of Hanoi](https://github.com/azmalshaikh/Data-Structure-and-Algorithms/blob/master/recursion/Tower%20of%20Hanoi) [GFG](https://practice.geeksforgeeks.org/problems/tower-of-hanoi/0)
   - [Path In Maze](https://github.com/azmalshaikh/Data-Structure-and-Algorithms/blob/master/recursion/pathInMaze.java) 
-- [BackTracking](https://github.com/azmalshaikh/Data-Structure-and-Algorithms/tree/master/backtracking)
+- BackTracking
+  - [Maze Block](https://github.com/azmalshaikh/Data-Structure-and-Algorithms/blob/master/backtracking/MazeBlock.java) [GFG](https://practice.geeksforgeeks.org/problems/rat-in-a-maze-problem/1)
+  - [Partition An Array](https://github.com/azmalshaikh/Data-Structure-and-Algorithms/blob/master/backtracking/PartitionAnArray.java)
+  - [Shortest Path In Maze](https://github.com/azmalshaikh/Data-Structure-and-Algorithms/blob/master/backtracking/ShortestPathInMaze.java)
+  - [Subset](https://github.com/azmalshaikh/Data-Structure-and-Algorithms/blob/master/backtracking/Subset.java) [LeetCode](https://leetcode.com/problems/subsets-ii/)
+  - [Word Search](https://github.com/azmalshaikh/Data-Structure-and-Algorithms/blob/master/backtracking/WordSeach.java) [LeetCode](https://leetcode.com/problems/word-search/)
 - Mathematice For CP
   - [Greatest Common Divisor](https://github.com/azmalshaikh/Data-Structure-and-Algorithms/blob/master/mathematics/MathematicsCP.java) (GCD)
   - [Sieve Of EratoStenes](https://github.com/azmalshaikh/Data-Structure-and-Algorithms/blob/master/mathematics/MathematicsCP.java) 
