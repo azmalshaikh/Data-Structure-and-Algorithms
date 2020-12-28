@@ -13,6 +13,6 @@ Node sortedInsert(Node head, int key) {
             }
             toAdd.next = temp.next;
             temp.next = toAdd;
-        }
+        } 
         return head;
     }
