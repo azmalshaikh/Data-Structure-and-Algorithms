@@ -12,7 +12,7 @@
 - [HashCode & Equals](https://github.com/azmalshaikh/Data-Structure-and-Algorithms/tree/master/map)
 - [Comparators & Comparable](https://github.com/azmalshaikh/Data-Structure-and-Algorithms/tree/master/comparatorsAndComparables)
 - Tree
-  - [Binary Tree](https://github.com/azmalshaikh/Data-Structure-and-Algorithms/tree/master/tree)
+  - [Binary Tree](https://github.com/azmalshaikh/Data-Structure-and-Algorithms/tree/master/binarytree)
   - [AVL Tree](https://github.com/azmalshaikh/Data-Structure-and-Algorithms/tree/master/avl)
   - [Binary Search Tree](https://github.com/azmalshaikh/Data-Structure-and-Algorithms/tree/master/bst)
 - [Graph](https://github.com/azmalshaikh/Data-Structure-and-Algorithms/tree/master/graphs)
@@ -48,6 +48,16 @@
   - [Catalan Numbers](https://github.com/azmalshaikh/Data-Structure-and-Algorithms/blob/master/mathematics/CatalanNumbers.java)
   - [Generate Parentheses](https://github.com/azmalshaikh/Data-Structure-and-Algorithms/blob/master/recursion/balancedParenthesis.java)
 - Dynamic Programming
+- LinkedList
+  - [Reverse of LinkedList](https://github.com/azmalshaikh/Data-Structure-and-Algorithms/blob/master/linkedList/ReverseLinkedList.java)
+  - [Union of Two LinkedList](https://github.com/azmalshaikh/Data-Structure-and-Algorithms/blob/master/linkedList/UnionLL.java) [GFG](https://practice.geeksforgeeks.org/problems/union-of-two-linked-list/1)
+  - [Rearrange LL](https://github.com/azmalshaikh/Data-Structure-and-Algorithms/blob/master/linkedList/Rearrangelinkedlist.java)
+  - [Insert value in sorted ll]() [GFG](https://practice.geeksforgeeks.org/problems/rearrange-linked-list-in-place/1)
+  - [Insert value in sorted Circularll](https://github.com/azmalshaikh/Data-Structure-and-Algorithms/blob/master/linkedList/InsertCll.java) [GFG](https://practice.geeksforgeeks.org/problems/sorted-insert-for-circular-linked-list/1)
+  - [Insert value in sorted Doublyll](https://github.com/azmalshaikh/Data-Structure-and-Algorithms/blob/master/linkedList/Insertvalue.java) [GFG](https://practice.geeksforgeeks.org/problems/insert-in-sorted-way-in-a-sorted-dll/1)
+  - [Absolute List Sorting](https://github.com/azmalshaikh/Data-Structure-and-Algorithms/blob/master/linkedList/AbsoluteListSorting.java) [GFG](https://practice.geeksforgeeks.org/problems/absolute-list-sorting/1)
 - Graph 
   - [Depth For Search](https://github.com/azmalshaikh/Data-Structure-and-Algorithms/blob/master/graphs/Graph.java) (DFS)
   - [Breadth For Search](https://github.com/azmalshaikh/Data-Structure-and-Algorithms/blob/master/graphs/Graph.java) (BFS)
+- Sorting
+  - [Quick Sort](https://github.com/azmalshaikh/Data-Structure-and-Algorithms/blob/master/sorting/QuickSort.java) [GFG](https://practice.geeksforgeeks.org/problems/quick-sort/1)
