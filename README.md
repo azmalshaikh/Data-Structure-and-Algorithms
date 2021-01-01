@@ -3,7 +3,7 @@
  All DS & Algorithms are implemented in Java (for educational purposes)
 
 ## Data Structures
-- ArrayList
+- [ArrayList](https://github.com/azmalshaikh/Data-Structure-and-Algorithms/tree/master/arrayList)
 - [LinkedList](https://github.com/azmalshaikh/Data-Structure-and-Algorithms/tree/master/linkedList)
 - [Vector & Stack](https://github.com/azmalshaikh/Data-Structure-and-Algorithms/tree/master/vectorAndStacks)
 - [Queue](https://github.com/azmalshaikh/Data-Structure-and-Algorithms/tree/master/queue)
