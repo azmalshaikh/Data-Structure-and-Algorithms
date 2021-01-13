@@ -15,11 +15,11 @@
   - [Binary Tree](https://github.com/azmalshaikh/Data-Structure-and-Algorithms/tree/master/binarytree)
   - [AVL Tree](https://github.com/azmalshaikh/Data-Structure-and-Algorithms/tree/master/avl)
   - [Binary Search Tree](https://github.com/azmalshaikh/Data-Structure-and-Algorithms/tree/master/bst)
-- [Graph](https://github.com/azmalshaikh/Data-Structure-and-Algorithms/tree/master/graphs)
+- [Graph](https://github.com/azmalshaikh/Data-Structure-and-Algorithms/blob/master/graphs/Graph.java)
 - Priority Queue
 
 
-## Algorithms
+## Algorithms & Questions
 - Recursion
   - [Basic](https://github.com/azmalshaikh/Data-Structure-and-Algorithms/blob/master/recursion/MainClass.java)
   - [FloodFill](https://github.com/azmalshaikh/Data-Structure-and-Algorithms/blob/master/recursion/AdvancedRecursion.java)
@@ -56,8 +56,20 @@
   - [Insert value in sorted Circularll](https://github.com/azmalshaikh/Data-Structure-and-Algorithms/blob/master/linkedList/InsertCll.java) [GFG](https://practice.geeksforgeeks.org/problems/sorted-insert-for-circular-linked-list/1)
   - [Insert value in sorted Doublyll](https://github.com/azmalshaikh/Data-Structure-and-Algorithms/blob/master/linkedList/Insertvalue.java) [GFG](https://practice.geeksforgeeks.org/problems/insert-in-sorted-way-in-a-sorted-dll/1)
   - [Absolute List Sorting](https://github.com/azmalshaikh/Data-Structure-and-Algorithms/blob/master/linkedList/AbsoluteListSorting.java) [GFG](https://practice.geeksforgeeks.org/problems/absolute-list-sorting/1)
+  - [Detect Loop](https://github.com/azmalshaikh/Data-Structure-and-Algorithms/blob/master/linkedList/DetectLoop.java) [GFG](https://practice.geeksforgeeks.org/problems/detect-loop-in-linked-list/1)
+  - [Remove Loop](https://github.com/azmalshaikh/Data-Structure-and-Algorithms/blob/master/linkedList/Removeloop.java) [GFG](https://practice.geeksforgeeks.org/problems/remove-loop-in-linked-list/1#)
+  - [Reverse in Groups](https://github.com/azmalshaikh/Data-Structure-and-Algorithms/blob/master/linkedList/ReverseInGroups.java) [GFG](https://practice.geeksforgeeks.org/problems/reverse-a-linked-list-in-groups-of-given-size/1#)
+  - [Interesection Point](https://github.com/azmalshaikh/Data-Structure-and-Algorithms/blob/master/linkedList/Intersection.java) [GFG](https://practice.geeksforgeeks.org/problems/intersection-point-in-y-shapped-linked-lists/1#)
 - Graph 
   - [Depth For Search](https://github.com/azmalshaikh/Data-Structure-and-Algorithms/blob/master/graphs/Graph.java) (DFS)
   - [Breadth For Search](https://github.com/azmalshaikh/Data-Structure-and-Algorithms/blob/master/graphs/Graph.java) (BFS)
+  - [Kruskal's Algo](https://github.com/azmalshaikh/Data-Structure-and-Algorithms/blob/master/graphs/KruskalsAlgo.java)
+  - [Prim's Algo](https://github.com/azmalshaikh/Data-Structure-and-Algorithms/blob/master/graphs/prims.java)
+  - Detect Cycle
+    - Undirected Graph
+      - [Using bfs](https://github.com/azmalshaikh/Data-Structure-and-Algorithms/blob/master/graphs/DetectCycle1.java)
+      - [Using DisjointSets](https://github.com/azmalshaikh/Data-Structure-and-Algorithms/blob/master/graphs/DetectCycle.java)
 - Sorting
   - [Quick Sort](https://github.com/azmalshaikh/Data-Structure-and-Algorithms/blob/master/sorting/QuickSort.java) [GFG](https://practice.geeksforgeeks.org/problems/quick-sort/1)
+  - [Merge Sort](https://github.com/azmalshaikh/Data-Structure-and-Algorithms/blob/master/sorting/MergeSort.java)
+  - [Count Inversion](https://github.com/azmalshaikh/Data-Structure-and-Algorithms/blob/master/sorting/CountInversion.java)
