@@ -1,5 +1,5 @@
 void postorder(Node root) {
-    Stack<Integer> s = new Stack<();
+    Stack<Node> s = new Stack<();
     s.push(root);
 
     Stack<Integer> ans = new Stack<>();
