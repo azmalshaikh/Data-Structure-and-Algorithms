@@ -19,7 +19,15 @@
 - Priority Queue
 
 
-## Algorithms & Questions
+## Algorithms & Questions4
+- Arrays
+  - [Anagram Occurrence](https://github.com/azmalshaikh/Data-Structure-and-Algorithms/blob/master/arrays/AnagramOccurence.java) [GFG](https://practice.geeksforgeeks.org/problems/count-occurences-of-anagrams5839/1#)
+  - [Coins Of Geekland](https://github.com/azmalshaikh/Data-Structure-and-Algorithms/blob/master/arrays/CoinsOfGeekland.java)
+  - [K Sorted Array](https://github.com/azmalshaikh/Data-Structure-and-Algorithms/blob/master/arrays/KSortedArray.java) [GFG](https://practice.geeksforgeeks.org/problems/k-sorted-array1610/1)
+  - [Longest Subarray of non negative Integer](https://github.com/azmalshaikh/Data-Structure-and-Algorithms/blob/master/arrays/LongestSubarray.java) [GFG](https://practice.geeksforgeeks.org/problems/length-of-longest-subarray/0)
+  - [Maximum Sum Subarray of size k](https://github.com/azmalshaikh/Data-Structure-and-Algorithms/commit/59fc3df8fedbd73dabb3c1409bca26ca55891c2b) [GFG](https://practice.geeksforgeeks.org/problems/max-sum-subarray-of-size-k5313/1#)
+  - [Min Subsets with Consecutive Numbers](https://github.com/azmalshaikh/Data-Structure-and-Algorithms/blob/master/arrays/MinSubsets.java) [GFG](https://practice.geeksforgeeks.org/problems/min-subsets-with-consecutive-numbers/0)
+  - [Smallest Positive Number](https://github.com/azmalshaikh/Data-Structure-and-Algorithms/blob/master/arrays/SmallestPositive.java)
 - Recursion
   - [Basic](https://github.com/azmalshaikh/Data-Structure-and-Algorithms/blob/master/recursion/MainClass.java)
   - [FloodFill](https://github.com/azmalshaikh/Data-Structure-and-Algorithms/blob/master/recursion/AdvancedRecursion.java)
@@ -65,6 +73,7 @@
   - [Breadth For Search](https://github.com/azmalshaikh/Data-Structure-and-Algorithms/blob/master/graphs/Graph.java) (BFS)
   - [Kruskal's Algo](https://github.com/azmalshaikh/Data-Structure-and-Algorithms/blob/master/graphs/KruskalsAlgo.java)
   - [Prim's Algo](https://github.com/azmalshaikh/Data-Structure-and-Algorithms/blob/master/graphs/prims.java)
+  - [Dijkstra's Algo](https://github.com/azmalshaikh/Data-Structure-and-Algorithms/blob/master/graphs/Dijkstras.java)
   - Detect Cycle
     - Undirected Graph
       - [Using bfs](https://github.com/azmalshaikh/Data-Structure-and-Algorithms/blob/master/graphs/DetectCycle1.java)
@@ -73,3 +82,9 @@
   - [Quick Sort](https://github.com/azmalshaikh/Data-Structure-and-Algorithms/blob/master/sorting/QuickSort.java) [GFG](https://practice.geeksforgeeks.org/problems/quick-sort/1)
   - [Merge Sort](https://github.com/azmalshaikh/Data-Structure-and-Algorithms/blob/master/sorting/MergeSort.java)
   - [Count Inversion](https://github.com/azmalshaikh/Data-Structure-and-Algorithms/blob/master/sorting/CountInversion.java)
+- Bit Manipulation
+  - [Basic Concepts](https://github.com/azmalshaikh/Data-Structure-and-Algorithms/blob/master/bitManipulation/basicConcepts.java)
+  - [Power of 2](https://github.com/azmalshaikh/Data-Structure-and-Algorithms/blob/master/bitManipulation/PowerOf2.java) [GFG](https://practice.geeksforgeeks.org/problems/power-of-2-1587115620/1)
+  - [Power Set](https://github.com/azmalshaikh/Data-Structure-and-Algorithms/blob/master/bitManipulation/PowerSet.java) [GFG](https://practice.geeksforgeeks.org/problems/power-set4302/1#)
+  - [Rightmost Different Bit](https://github.com/azmalshaikh/Data-Structure-and-Algorithms/blob/master/bitManipulation/RightmostDifferentBit.java) [GFG](https://practice.geeksforgeeks.org/problems/rightmost-different-bit-1587115621/1)
+  - [Subset](https://github.com/azmalshaikh/Data-Structure-and-Algorithms/blob/master/bitManipulation/Subset.java)
