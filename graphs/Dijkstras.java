@@ -5,9 +5,9 @@ public class Dijkstras {
     private boolean vis[];
     private PriorityQueue<Node> pq; 
     private int V;
-    private LinkedList<Node> adj []; 
-    private List<Integer> route;
-    private int prev[];
+    public LinkedList<Node> adj []; 
+    public List<Integer> route;
+    public int prev[];
     
     private static void getRoute(int prev[], int i, List<Integer> route) {
     	if(i >= 0) {
@@ -42,30 +42,33 @@ public class Dijkstras {
 
             vis[u] = true; 
   
-            e_Neighbours(u); 
-        } 
-    } 
-
-    private void e_Neighbours(int u) { 
-        int edgeDistance = -1; 
-        int newDistance = -1; 
-   
-        for (int i = 0; i < adj[u].size(); i++) { 
-            Node v = adj[u].get(i); 
-  
-            if (!vis[v.vertex]) { 
-                edgeDistance = v.weight; 
-                newDistance = dist[u] + edgeDistance; 
- 
-                if (newDistance < dist[v.vertex]) {
-                    dist[v.vertex] = newDistance; 
-                    prev[v.vertex] = u;
+            int edgeDistance = -1;
+            int newDistance = -1;
+            
+            for(int i=0; i<adj[u].size(); i++) {
+            	Node v = adj[u].get(i);
+            	
+        		if (!vis[v.vertex] ) { 
+                    edgeDistance = v.weight; 
+                    newDistance = dist[u] + edgeDistance; 
+     
+                    if (newDistance < dist[v.vertex]) {
+                        dist[v.vertex] = newDistance; 
+                        prev[v.vertex] = u;
+                    }
+                    
+                    pq.add(new Node(v.vertex, dist[v.vertex])); 
                 }
-                
-                pq.add(new Node(v.vertex, dist[v.vertex])); 
-            } 
-        } 
-    } 
+            }
+        }
+        
+        System.out.println("The shorted path from node :"); 
+        for (int i = 0; i < dist.length; i++) {
+        	getRoute(prev, i, route);
+        	System.out.println("Path => " + src + " to " + i + ": Minimum Cost = "+ dist[i] + ", Route = " + route);
+        	route.clear();
+        }
+    }  
   
     // Driver code 
     public static void main(String arg[]) { 
@@ -92,13 +95,6 @@ public class Dijkstras {
         
         Dijkstras dpq = new Dijkstras(V); 
         dpq.dijkstra(adj, s); 
-  
-        System.out.println("The shorted path from node :"); 
-        for (int i = 0; i < dpq.dist.length; i++) {
-        	getRoute(dpq.prev, i, dpq.route);
-            System.out.println("Path => " + s + " to " + i + ": Minimum Cost = "+ dpq.dist[i] + ", Route = " + dpq.route);
-            dpq.route.clear();
-        }
         	
         sc.close();
     } 
