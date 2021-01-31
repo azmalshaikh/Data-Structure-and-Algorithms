@@ -20,7 +20,7 @@
   - [Max Heap](https://github.com/azmalshaikh/Data-Structure-and-Algorithms/blob/master/heap/MaxHeap.java)
   - [Min Heap](https://github.com/azmalshaikh/Data-Structure-and-Algorithms/blob/master/heap/MinHeap.java)
 
-## Algorithms & Questions4
+## Algorithms & Questions
 - Arrays
   - [Anagram Occurrence](https://github.com/azmalshaikh/Data-Structure-and-Algorithms/blob/master/arrays/AnagramOccurence.java) [GFG](https://practice.geeksforgeeks.org/problems/count-occurences-of-anagrams5839/1#)
   - [Coins Of Geekland](https://github.com/azmalshaikh/Data-Structure-and-Algorithms/blob/master/arrays/CoinsOfGeekland.java)
