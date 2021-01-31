@@ -17,7 +17,8 @@
   - [Binary Search Tree](https://github.com/azmalshaikh/Data-Structure-and-Algorithms/tree/master/bst)
 - [Graph](https://github.com/azmalshaikh/Data-Structure-and-Algorithms/blob/master/graphs/Graph.java)
 - Priority Queue
-
+  - [Max Heap](https://github.com/azmalshaikh/Data-Structure-and-Algorithms/blob/master/heap/MaxHeap.java)
+  - [Min Heap](https://github.com/azmalshaikh/Data-Structure-and-Algorithms/blob/master/heap/MinHeap.java)
 
 ## Algorithms & Questions4
 - Arrays
@@ -81,6 +82,7 @@
 - Sorting
   - [Quick Sort](https://github.com/azmalshaikh/Data-Structure-and-Algorithms/blob/master/sorting/QuickSort.java) [GFG](https://practice.geeksforgeeks.org/problems/quick-sort/1)
   - [Merge Sort](https://github.com/azmalshaikh/Data-Structure-and-Algorithms/blob/master/sorting/MergeSort.java)
+  - [Heap Sort](https://github.com/azmalshaikh/Data-Structure-and-Algorithms/blob/master/heap/heapSort.java)
   - [Count Inversion](https://github.com/azmalshaikh/Data-Structure-and-Algorithms/blob/master/sorting/CountInversion.java)
 - Bit Manipulation
   - [Basic Concepts](https://github.com/azmalshaikh/Data-Structure-and-Algorithms/blob/master/bitManipulation/basicConcepts.java)
