@@ -13,6 +13,28 @@ public static long sumBitDiff(int arr[], int n) {
     return ans;
 }
 
+// For negative Numbers also
+
+static int countBits(int n, long a[]) {
+  
+    long ans = 0;
+    int m = 1000000007;
+
+    for(int i=0; i<31; i++) {
+        int count = 0;
+        for(int j=0; j<n; j++) {
+            if((a[j] & (1<<i)) == 0) count++;
+        }
+        // ans += count * (n - count) * 2;
+        ans += ((count%m) * ((n-count)%m)) % m * (2);
+
+        if(ans >= m)
+            ans -= m;
+    }
+
+    return (int)ans;
+}
+
 // public static long sumBitDiff(int arr[], int n) { 
 //     long ans = 0;
 
