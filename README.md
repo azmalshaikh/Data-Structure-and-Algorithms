@@ -19,6 +19,8 @@
 - Priority Queue
   - [Max Heap](https://github.com/azmalshaikh/Data-Structure-and-Algorithms/blob/master/heap/MaxHeap.java)
   - [Min Heap](https://github.com/azmalshaikh/Data-Structure-and-Algorithms/blob/master/heap/MinHeap.java)
+- [Trie](https://github.com/azmalshaikh/Data-Structure-and-Algorithms/tree/master/trie)
+- [Segment Tree](https://github.com/azmalshaikh/Data-Structure-and-Algorithms/tree/master/segmentTree)
 
 ## Algorithms & Questions
 - Arrays
