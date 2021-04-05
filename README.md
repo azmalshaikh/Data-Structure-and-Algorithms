@@ -38,6 +38,7 @@
   - [Permutations](https://github.com/azmalshaikh/Data-Structure-and-Algorithms/blob/master/recursion/AdvancedRecursion.java)
   - [Coin Toss](https://github.com/azmalshaikh/Data-Structure-and-Algorithms/blob/master/recursion/CoinTossClimbingStairs.java)
   - [Climbing Stairs](https://github.com/azmalshaikh/Data-Structure-and-Algorithms/blob/master/recursion/CoinTossClimbingStairs.java)
+  - [Generate Parentheses](https://github.com/azmalshaikh/Data-Structure-and-Algorithms/blob/master/recursion/balancedParenthesis.java)
   - [Letter Combination Of Phone Numer](https://github.com/azmalshaikh/Data-Structure-and-Algorithms/blob/master/recursion/LetterCombinationOfPhoneNumer.java) [LeetCode](https://leetcode.com/problems/letter-combinations-of-a-phone-number/)
   - [Palindrome Partitioning](https://github.com/azmalshaikh/Data-Structure-and-Algorithms/blob/master/recursion/PalindromePartitioning.java) [LeetCode](https://leetcode.com/problems/palindrome-partitioning/)
   - [Reverse String](https://github.com/azmalshaikh/Data-Structure-and-Algorithms/blob/master/recursion/Questions.java)
@@ -55,9 +56,8 @@
   - [Greatest Common Divisor](https://github.com/azmalshaikh/Data-Structure-and-Algorithms/blob/master/mathematics/MathematicsCP.java) (GCD)
   - [Sieve Of EratoStenes](https://github.com/azmalshaikh/Data-Structure-and-Algorithms/blob/master/mathematics/MathematicsCP.java) 
   - [Fast Power](https://github.com/azmalshaikh/Data-Structure-and-Algorithms/blob/master/mathematics/MathematicsCP.java)
-  - [Binomail Coefficient](https://github.com/azmalshaikh/Data-Structure-and-Algorithms/blob/master/mathematics/MathematicsCP.java)
+  - [Binomial Coefficient](https://github.com/azmalshaikh/Data-Structure-and-Algorithms/blob/master/mathematics/MathematicsCP.java)
   - [Catalan Numbers](https://github.com/azmalshaikh/Data-Structure-and-Algorithms/blob/master/mathematics/CatalanNumbers.java)
-  - [Generate Parentheses](https://github.com/azmalshaikh/Data-Structure-and-Algorithms/blob/master/recursion/balancedParenthesis.java)
 - Dynamic Programming
 - LinkedList
   - [Reverse of LinkedList](https://github.com/azmalshaikh/Data-Structure-and-Algorithms/blob/master/linkedList/ReverseLinkedList.java)
@@ -92,3 +92,8 @@
   - [Power Set](https://github.com/azmalshaikh/Data-Structure-and-Algorithms/blob/master/bitManipulation/PowerSet.java) [GFG](https://practice.geeksforgeeks.org/problems/power-set4302/1#)
   - [Rightmost Different Bit](https://github.com/azmalshaikh/Data-Structure-and-Algorithms/blob/master/bitManipulation/RightmostDifferentBit.java) [GFG](https://practice.geeksforgeeks.org/problems/rightmost-different-bit-1587115621/1)
   - [Subset](https://github.com/azmalshaikh/Data-Structure-and-Algorithms/blob/master/bitManipulation/Subset.java)
+  - [Bit Difference](https://github.com/azmalshaikh/Data-Structure-and-Algorithms/blob/master/bitManipulation/BitDifference.java) [GFG](https://practice.geeksforgeeks.org/problems/find-sum-of-different-corresponding-bits-for-all-pairs4652/1#)
+  - [Bleak Number](https://github.com/azmalshaikh/Data-Structure-and-Algorithms/blob/master/bitManipulation/BleakNumber.java) [GFG](https://practice.geeksforgeeks.org/problems/bleak-numbers1552/1)
+  - [Count Set Bits](https://github.com/azmalshaikh/Data-Structure-and-Algorithms/blob/master/bitManipulation/CountSetBits.java) [GFG](https://practice.geeksforgeeks.org/problems/count-total-set-bits-1587115620/1)
+  - [Grey Code](https://github.com/azmalshaikh/Data-Structure-and-Algorithms/blob/master/bitManipulation/GreyCode.java) [GFG](https://practice.geeksforgeeks.org/problems/gray-code-1611215248/1)
+  - [Maximum XOR Pairs](https://github.com/azmalshaikh/Data-Structure-and-Algorithms/blob/master/bitManipulation/MinimumXORPairs.java) [GFG](https://practice.geeksforgeeks.org/problems/minimum-xor-value-pair/1/)
