@@ -58,7 +58,7 @@
   - [Fast Power](https://github.com/azmalshaikh/Data-Structure-and-Algorithms/blob/master/mathematics/MathematicsCP.java)
   - [Binomial Coefficient](https://github.com/azmalshaikh/Data-Structure-and-Algorithms/blob/master/mathematics/MathematicsCP.java)
   - [Catalan Numbers](https://github.com/azmalshaikh/Data-Structure-and-Algorithms/blob/master/mathematics/CatalanNumbers.java)
-  - [ChessBoared Squares](https://github.com/azmalshaikh/Data-Structure-and-Algorithms/blob/master/mathematics/Squares.java) [GFG](https://practice.geeksforgeeks.org/problems/squares-in-nn-chessboard1801/1#)
+  - [ChessBoard Squares](https://github.com/azmalshaikh/Data-Structure-and-Algorithms/blob/master/mathematics/Squares.java) [GFG](https://practice.geeksforgeeks.org/problems/squares-in-nn-chessboard1801/1#)
   - [Nth Natural Number](https://github.com/azmalshaikh/Data-Structure-and-Algorithms/blob/master/mathematics/nthNaturalNumber.java)
 - Dynamic Programming
 - LinkedList
