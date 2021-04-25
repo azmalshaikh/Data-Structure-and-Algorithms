@@ -38,7 +38,7 @@
   - [Permutations](https://github.com/azmalshaikh/Data-Structure-and-Algorithms/blob/master/recursion/AdvancedRecursion.java)
   - [Coin Toss](https://github.com/azmalshaikh/Data-Structure-and-Algorithms/blob/master/recursion/CoinTossClimbingStairs.java)
   - [Climbing Stairs](https://github.com/azmalshaikh/Data-Structure-and-Algorithms/blob/master/recursion/CoinTossClimbingStairs.java)
-  - [Generate Parentheses](https://github.com/azmalshaikh/Data-Structure-and-Algorithms/blob/master/recursion/balancedParenthesis.java)
+  - [Generate Parentheses](https://github.com/azmalshaikh/Data-Structure-and-Algorithms/blob/master/recursion/balancedParenthesis.java) [LeetCode](https://leetcode.com/problems/generate-parentheses/)
   - [Letter Combination Of Phone Numer](https://github.com/azmalshaikh/Data-Structure-and-Algorithms/blob/master/recursion/LetterCombinationOfPhoneNumer.java) [LeetCode](https://leetcode.com/problems/letter-combinations-of-a-phone-number/)
   - [Palindrome Partitioning](https://github.com/azmalshaikh/Data-Structure-and-Algorithms/blob/master/recursion/PalindromePartitioning.java) [LeetCode](https://leetcode.com/problems/palindrome-partitioning/)
   - [Reverse String](https://github.com/azmalshaikh/Data-Structure-and-Algorithms/blob/master/recursion/Questions.java)
@@ -46,6 +46,8 @@
   - [Subsequence of a String](https://github.com/azmalshaikh/Data-Structure-and-Algorithms/blob/master/recursion/Questions.java)
   - [Tower Of Hanoi](https://github.com/azmalshaikh/Data-Structure-and-Algorithms/blob/master/recursion/Tower%20of%20Hanoi) [GFG](https://practice.geeksforgeeks.org/problems/tower-of-hanoi/0)
   - [Path In Maze](https://github.com/azmalshaikh/Data-Structure-and-Algorithms/blob/master/recursion/pathInMaze.java) 
+  - [Josephus problem](https://github.com/azmalshaikh/Data-Structure-and-Algorithms/blob/master/recursion/Josephus.java) [GFG](https://github.com/azmalshaikh/Data-Structure-and-Algorithms/blob/master/recursion/Josephus.java)
+  - [Handshakes](https://github.com/azmalshaikh/Data-Structure-and-Algorithms/blob/master/recursion/Handshakes.java) [GFG](https://practice.geeksforgeeks.org/problems/handshakes1303/1)
 - BackTracking
   - [Maze Block](https://github.com/azmalshaikh/Data-Structure-and-Algorithms/blob/master/backtracking/MazeBlock.java) [GFG](https://practice.geeksforgeeks.org/problems/rat-in-a-maze-problem/1)
   - [Partition An Array](https://github.com/azmalshaikh/Data-Structure-and-Algorithms/blob/master/backtracking/PartitionAnArray.java)
