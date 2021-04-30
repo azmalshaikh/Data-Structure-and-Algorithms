@@ -48,6 +48,8 @@
   - [Path In Maze](https://github.com/azmalshaikh/Data-Structure-and-Algorithms/blob/master/recursion/pathInMaze.java) 
   - [Josephus problem](https://github.com/azmalshaikh/Data-Structure-and-Algorithms/blob/master/recursion/Josephus.java) [GFG](https://github.com/azmalshaikh/Data-Structure-and-Algorithms/blob/master/recursion/Josephus.java)
   - [Handshakes](https://github.com/azmalshaikh/Data-Structure-and-Algorithms/blob/master/recursion/Handshakes.java) [GFG](https://practice.geeksforgeeks.org/problems/handshakes1303/1)
+  - [Next Happy Number](https://github.com/azmalshaikh/Data-Structure-and-Algorithms/blob/master/recursion/Happynumber.java) [GFG](https://practice.geeksforgeeks.org/problems/next-happy-number4538/1)
+  - [Print N-bit binary numbers having more 1s than 0s](https://github.com/azmalshaikh/Data-Structure-and-Algorithms/blob/master/recursion/NBitBinary.java) [GFG](https://practice.geeksforgeeks.org/problems/print-n-bit-binary-numbers-having-more-1s-than-0s0252/1)
 - BackTracking
   - [Maze Block](https://github.com/azmalshaikh/Data-Structure-and-Algorithms/blob/master/backtracking/MazeBlock.java) [GFG](https://practice.geeksforgeeks.org/problems/rat-in-a-maze-problem/1)
   - [Partition An Array](https://github.com/azmalshaikh/Data-Structure-and-Algorithms/blob/master/backtracking/PartitionAnArray.java)
