@@ -7,6 +7,15 @@ public static void main(String args[]) {
 
 // Traverse the array and then check for every consecutive pairs
 
+// Proof -> a <= b <= c
+// Then from a^c > a^b  OR  a^c > b^c one is correct
+// a = 1 1 0 1 0   1 1 0 1 0
+// b = 1 1 0 1 0/1 1 1 1 0 0
+// c = 1 1 0 1 1   1 1 1 1 1
+
+// If in 0/1 -> 0   a^c > a^b
+//              1   a^c > b^c
+ 
 static void minimumxorpairs(int arr[], int n) {
     Arrays.sort(arr);
 
