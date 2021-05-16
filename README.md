@@ -56,6 +56,7 @@
   - [Shortest Path In Maze](https://github.com/azmalshaikh/Data-Structure-and-Algorithms/blob/master/backtracking/ShortestPathInMaze.java)
   - [Subset](https://github.com/azmalshaikh/Data-Structure-and-Algorithms/blob/master/backtracking/Subset.java) [LeetCode](https://leetcode.com/problems/subsets-ii/)
   - [Word Search](https://github.com/azmalshaikh/Data-Structure-and-Algorithms/blob/master/backtracking/WordSeach.java) [LeetCode](https://leetcode.com/problems/word-search/)
+  - [N Queen Problem](https://github.com/azmalshaikh/Data-Structure-and-Algorithms/blob/master/backtracking/nQueen.java) [GFG](https://practice.geeksforgeeks.org/problems/n-queen-problem/0)
 - Mathematice For CP
   - [Greatest Common Divisor](https://github.com/azmalshaikh/Data-Structure-and-Algorithms/blob/master/mathematics/MathematicsCP.java) (GCD)
   - [Sieve Of EratoStenes](https://github.com/azmalshaikh/Data-Structure-and-Algorithms/blob/master/mathematics/MathematicsCP.java) 
