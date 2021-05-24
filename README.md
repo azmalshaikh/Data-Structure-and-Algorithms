@@ -31,6 +31,18 @@
   - [Maximum Sum Subarray of size k](https://github.com/azmalshaikh/Data-Structure-and-Algorithms/commit/59fc3df8fedbd73dabb3c1409bca26ca55891c2b) [GFG](https://practice.geeksforgeeks.org/problems/max-sum-subarray-of-size-k5313/1#)
   - [Min Subsets with Consecutive Numbers](https://github.com/azmalshaikh/Data-Structure-and-Algorithms/blob/master/arrays/MinSubsets.java) [GFG](https://practice.geeksforgeeks.org/problems/min-subsets-with-consecutive-numbers/0)
   - [Smallest Positive Number](https://github.com/azmalshaikh/Data-Structure-and-Algorithms/blob/master/arrays/SmallestPositive.java)
+  - [Geek Classmates](https://github.com/azmalshaikh/Data-Structure-and-Algorithms/blob/master/arrays/GeekClassmates.java) [GFG](https://practice.geeksforgeeks.org/problems/47e5aa3f32aee9e0405f04960f37c8a562d96a2f/1/?track=30-DOC-day-1&batchId=320)
+  - [Majority Element](https://github.com/azmalshaikh/Data-Structure-and-Algorithms/blob/master/arrays/MajorityElement.java) [GFG](https://practice.geeksforgeeks.org/problems/majority-element-1587115620/1#)
+  - [Replace 0's With X's](https://github.com/azmalshaikh/Data-Structure-and-Algorithms/blob/master/arrays/ReplaceOwithX.java) [GFG](https://practice.geeksforgeeks.org/problems/replace-os-with-xs/0)
+  - [Triplet Sum](https://github.com/azmalshaikh/Data-Structure-and-Algorithms/blob/master/arrays/TripletSum.java) [GFG](https://practice.geeksforgeeks.org/problems/triplet-sum-in-array-1587115621/1)
+  - [Valid Pair Sum](https://github.com/azmalshaikh/Data-Structure-and-Algorithms/blob/master/arrays/ValidPairSum.java)
+- String
+  - [Elixir Of Life](https://github.com/azmalshaikh/Data-Structure-and-Algorithms/blob/master/string/Elixir.java) [GFG](https://practice.geeksforgeeks.org/problems/20290dc4188d384ae1f17d6a14bd2c95ea7012a8/1/?track=30-DOC-day-29&batchId=320#)
+  - [Escape the Forbidden Forest (Longest Common Subsequence)](https://github.com/azmalshaikh/Data-Structure-and-Algorithms/blob/master/string/LCS.java) [GFG](https://practice.geeksforgeeks.org/problems/a4f19ea532cee502aabec77c07e0d0a45b76ecf9/1/?track=30-DOC-day-30&batchId=320)
+  - [Repeated String Match](https://github.com/azmalshaikh/Data-Structure-and-Algorithms/blob/master/string/RepeatedStringMatch.java) [GFG](https://practice.geeksforgeeks.org/problems/0cba668df04d657fde4d1bd28b626a01e61097f1/1/?track=30-DOC-day-10&batchId=320#)
+  - [Rotation of Strings](https://github.com/azmalshaikh/Data-Structure-and-Algorithms/blob/master/string/Rotation.java)
+  - [Check if A is Substring of B](https://github.com/azmalshaikh/Data-Structure-and-Algorithms/blob/master/string/Substring.java)
+  - [Transfiguration](https://github.com/azmalshaikh/Data-Structure-and-Algorithms/blob/master/string/Transfiguration.java) [GFG](https://practice.geeksforgeeks.org/problems/b6b3297ccfb1ad5f66a9c2b92979170417adf114/1/?track=30-DOC-day-9&batchId=320#)
 - Recursion
   - [Basic](https://github.com/azmalshaikh/Data-Structure-and-Algorithms/blob/master/recursion/MainClass.java)
   - [FloodFill](https://github.com/azmalshaikh/Data-Structure-and-Algorithms/blob/master/recursion/AdvancedRecursion.java)
@@ -56,6 +68,12 @@
   - [Shortest Path In Maze](https://github.com/azmalshaikh/Data-Structure-and-Algorithms/blob/master/backtracking/ShortestPathInMaze.java)
   - [Subset](https://github.com/azmalshaikh/Data-Structure-and-Algorithms/blob/master/backtracking/Subset.java) [LeetCode](https://leetcode.com/problems/subsets-ii/)
   - [Word Search](https://github.com/azmalshaikh/Data-Structure-and-Algorithms/blob/master/backtracking/WordSeach.java) [LeetCode](https://leetcode.com/problems/word-search/)
+  - [Black and White](https://github.com/azmalshaikh/Data-Structure-and-Algorithms/blob/master/backtracking/BlackAndWhite.java) [GFG](https://practice.geeksforgeeks.org/problems/black-and-white-1587115620/1)
+  - [Combination Sum](https://github.com/azmalshaikh/Data-Structure-and-Algorithms/blob/master/backtracking/CombinationSum.java) [GFG](https://practice.geeksforgeeks.org/problems/combination-sum-1587115620/1)
+  - [Partition array to K subsets (Print all subsets)](https://github.com/azmalshaikh/Data-Structure-and-Algorithms/blob/master/backtracking/Partition1.java)
+  - [Rat Maze with Multiple Jumps](https://github.com/azmalshaikh/Data-Structure-and-Algorithms/blob/master/backtracking/RatMaze.java) [GFG](https://practice.geeksforgeeks.org/problems/rat-maze-with-multiple-jumps3852/1)
+  - [Solve Soduku](https://github.com/azmalshaikh/Data-Structure-and-Algorithms/blob/master/backtracking/SolveSudoku.java) [GFG](https://practice.geeksforgeeks.org/problems/solve-the-sudoku-1587115621/1)
+  - [Largest Number in K Swaps](https://github.com/azmalshaikh/Data-Structure-and-Algorithms/blob/master/backtracking/swaps.java) [GFG](https://practice.geeksforgeeks.org/problems/largest-number-in-k-swaps-1587115620/1)
   - [N Queen Problem](https://github.com/azmalshaikh/Data-Structure-and-Algorithms/blob/master/backtracking/nQueen.java) [GFG](https://practice.geeksforgeeks.org/problems/n-queen-problem/0)
 - Mathematice For CP
   - [Greatest Common Divisor](https://github.com/azmalshaikh/Data-Structure-and-Algorithms/blob/master/mathematics/MathematicsCP.java) (GCD)
@@ -66,6 +84,9 @@
   - [ChessBoard Squares](https://github.com/azmalshaikh/Data-Structure-and-Algorithms/blob/master/mathematics/Squares.java) [GFG](https://practice.geeksforgeeks.org/problems/squares-in-nn-chessboard1801/1#)
   - [Nth Natural Number](https://github.com/azmalshaikh/Data-Structure-and-Algorithms/blob/master/mathematics/nthNaturalNumber.java)
 - Dynamic Programming
+- ArrayList
+  - [Merge Intervals](https://github.com/azmalshaikh/Data-Structure-and-Algorithms/blob/master/arrayList/MergeIntervals.java) [InterviewBit](https://www.interviewbit.com/problems/merge-intervals/)
+  - [Overlapping Intervals](https://github.com/azmalshaikh/Data-Structure-and-Algorithms/blob/master/arrayList/OverlappingIntervals.java) [GFG](https://practice.geeksforgeeks.org/problems/overlapping-intervals4919/1#)
 - LinkedList
   - [Reverse of LinkedList](https://github.com/azmalshaikh/Data-Structure-and-Algorithms/blob/master/linkedList/ReverseLinkedList.java)
   - [Union of Two LinkedList](https://github.com/azmalshaikh/Data-Structure-and-Algorithms/blob/master/linkedList/UnionLL.java) [GFG](https://practice.geeksforgeeks.org/problems/union-of-two-linked-list/1)
@@ -78,6 +99,15 @@
   - [Remove Loop](https://github.com/azmalshaikh/Data-Structure-and-Algorithms/blob/master/linkedList/Removeloop.java) [GFG](https://practice.geeksforgeeks.org/problems/remove-loop-in-linked-list/1#)
   - [Reverse in Groups](https://github.com/azmalshaikh/Data-Structure-and-Algorithms/blob/master/linkedList/ReverseInGroups.java) [GFG](https://practice.geeksforgeeks.org/problems/reverse-a-linked-list-in-groups-of-given-size/1#)
   - [Interesection Point](https://github.com/azmalshaikh/Data-Structure-and-Algorithms/blob/master/linkedList/Intersection.java) [GFG](https://practice.geeksforgeeks.org/problems/intersection-point-in-y-shapped-linked-lists/1#)
+- Vector & Stacks
+  - [Balanced Parenthesis](https://github.com/azmalshaikh/Data-Structure-and-Algorithms/blob/master/vectorAndStacks/BalancedParenthesis.java)
+  - [Celebrity](https://github.com/azmalshaikh/Data-Structure-and-Algorithms/blob/master/vectorAndStacks/Celebrity.java) [GFG](https://practice.geeksforgeeks.org/problems/the-celebrity-problem/1)
+  - [Geeky Buildings](https://github.com/azmalshaikh/Data-Structure-and-Algorithms/blob/master/vectorAndStacks/GeekyBuildings.java) [GFG](https://practice.geeksforgeeks.org/problems/355f731797ea1acbd5ab698b19eb1c3c469aa837/1/?track=30-DOC-day-18&batchId=320#)
+  - [Get Minimum Element](https://github.com/azmalshaikh/Data-Structure-and-Algorithms/blob/master/vectorAndStacks/GetMinimumElement.java) [GFG](https://practice.geeksforgeeks.org/problems/get-minimum-element-from-stack/1#)
+  - [Help Classmates](https://github.com/azmalshaikh/Data-Structure-and-Algorithms/blob/master/vectorAndStacks/HelpClassmates.java) [GFG](https://practice.geeksforgeeks.org/problems/fab3dbbdce746976ba35c7b9b24afde40eae5a04/1/?track=30-DOC-day-17&batchId=320#)
+  - [Restrictive Candy Crush](https://github.com/azmalshaikh/Data-Structure-and-Algorithms/blob/master/vectorAndStacks/ModifyString.java) [GFG](https://practice.geeksforgeeks.org/problems/8c8f95810b05b4cab665f2997d36991bd58308a2/1/?track=30-DOC-day-16&batchId=320#)
+  - [Stack using two Queues](https://github.com/azmalshaikh/Data-Structure-and-Algorithms/blob/master/vectorAndStacks/Stackusingtwoqueues.java) [GFG](https://practice.geeksforgeeks.org/problems/stack-using-two-queues/1)
+  - [Valid Substring](https://github.com/azmalshaikh/Data-Structure-and-Algorithms/blob/master/vectorAndStacks/ValidSubstring.java) [GFG](https://practice.geeksforgeeks.org/problems/valid-substring0624/1)
 - Graph 
   - [Depth For Search](https://github.com/azmalshaikh/Data-Structure-and-Algorithms/blob/master/graphs/Graph.java) (DFS)
   - [Breadth For Search](https://github.com/azmalshaikh/Data-Structure-and-Algorithms/blob/master/graphs/Graph.java) (BFS)
