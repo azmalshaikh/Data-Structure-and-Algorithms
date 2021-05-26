@@ -133,7 +133,7 @@
   - [Bleak Number](https://github.com/azmalshaikh/Data-Structure-and-Algorithms/blob/master/bitManipulation/BleakNumber.java) [GFG](https://practice.geeksforgeeks.org/problems/bleak-numbers1552/1)
   - [Count Set Bits](https://github.com/azmalshaikh/Data-Structure-and-Algorithms/blob/master/bitManipulation/CountSetBits.java) [GFG](https://practice.geeksforgeeks.org/problems/count-total-set-bits-1587115620/1)
   - [Grey Code](https://github.com/azmalshaikh/Data-Structure-and-Algorithms/blob/master/bitManipulation/GreyCode.java) [GFG](https://practice.geeksforgeeks.org/problems/gray-code-1611215248/1)
-  - [Maximum XOR Pairs](https://github.com/azmalshaikh/Data-Structure-and-Algorithms/blob/master/bitManipulation/MinimumXORPairs.java) [GFG](https://practice.geeksforgeeks.org/problems/minimum-xor-value-pair/1/)
+  - [Minimum XOR Pairs](https://github.com/azmalshaikh/Data-Structure-and-Algorithms/blob/master/bitManipulation/MinimumXORPairs.java) [GFG](https://practice.geeksforgeeks.org/problems/minimum-xor-value-pair/1/)
   - [Calculate square of a number without using *, / and pow()](https://github.com/azmalshaikh/Data-Structure-and-Algorithms/blob/master/bitManipulation/square.java) [GFG](https://www.geeksforgeeks.org/calculate-square-of-a-number-without-using-and-pow/)
   - [Reverse Bits](https://github.com/azmalshaikh/Data-Structure-and-Algorithms/blob/master/bitManipulation/reverseBits.java) [GFG](https://www.geeksforgeeks.org/reverse-actual-bits-given-number/)
   - [Is Binary Number Multiple of 3](https://github.com/azmalshaikh/Data-Structure-and-Algorithms/blob/master/bitManipulation/isDivisibleBy3.java) [GFG](https://practice.geeksforgeeks.org/problems/is-binary-number-multiple-of-30654/1)
