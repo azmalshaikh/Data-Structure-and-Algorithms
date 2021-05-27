@@ -3,7 +3,7 @@ public class Main {
         int arr[] = {2, 1, 8, -3, 6, 4, 12};
         insertionSort(arr, 7);
         for(int i=0; i<arr.length; i++) {
-            System.out.print(arr[i] + " ");
+            System.out.print(arr[i] + " "); 
         }
     }
 
