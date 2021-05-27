@@ -5,7 +5,7 @@ public class Main {
         for(int e : arr) {
             System.out.print(e + " ");
         }
-    }
+    } 
 
     static void selectionSort(int arr[], int n) {
         for(int i=0; i<n-1; i++) {
@@ -25,3 +25,4 @@ public class Main {
         }
     }
 }
+https://practice.geeksforgeeks.org/problems/selection-sort/1#
