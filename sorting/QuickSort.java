@@ -1,28 +1,34 @@
-static int partition(int arr[], int lb, int ub) {
-    int pivot = arr[ub];
-    int i = (lb-1);
+static void quickSort(int arr[], int low, int high) {
+    if(low < high) {
+        int pivot = partition(arr, low, high);
 
-    for(int j=lb; j<ub; j++) {
-        if(arr[j] < pivot) {
-            i++;
-
-            int temp = arr[i];
-            arr[i] = arr[j];
-            arr[j] = temp;
-        }
+        quickSort(arr, low, pivot-1);
+        quickSort(arr, pivot+1, high);
     }
-
-    int temp = arr[i+1];
-    arr[i+1] = arr[ub];
-    arr[ub] = temp;
-
-    return i+1;
 }
 
-static void quickSort(int arr[], int start, int end) {
-    if(start < end) {
-        int p = partition(arr, start, end);
-        quickSort(arr, start, p-1);
-        quickSort(arr, p+1, end);
+static void swap(int arr[], int a, int b) {
+    int temp = arr[a];
+    arr[a] = arr[b];
+    arr[b] = temp;
+}
+
+static int partition(int arr[], int low, int high) {
+    int pivot = arr[low];
+
+    int i = low;
+    int j = high;
+
+    while(i < j) {
+        while(i <= j && pivot >= arr[i]) i++;
+
+        while(i <= j && pivot < arr[j]) j--;
+
+        if(i < j)
+            swap(arr, i, j);
     }
+
+    swap(arr, low, j);
+
+    return j;
 }
