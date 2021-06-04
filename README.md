@@ -75,6 +75,13 @@
   - [Solve Soduku](https://github.com/azmalshaikh/Data-Structure-and-Algorithms/blob/master/backtracking/SolveSudoku.java) [GFG](https://practice.geeksforgeeks.org/problems/solve-the-sudoku-1587115621/1)
   - [Largest Number in K Swaps](https://github.com/azmalshaikh/Data-Structure-and-Algorithms/blob/master/backtracking/swaps.java) [GFG](https://practice.geeksforgeeks.org/problems/largest-number-in-k-swaps-1587115620/1)
   - [N Queen Problem](https://github.com/azmalshaikh/Data-Structure-and-Algorithms/blob/master/backtracking/nQueen.java) [GFG](https://practice.geeksforgeeks.org/problems/n-queen-problem/0)
+  - [K Length Words](https://github.com/azmalshaikh/Data-Structure-and-Algorithms/blob/master/backtracking/KnightsTour.java) [GFG](https://www.geeksforgeeks.org/the-knights-tour-problem-backtracking-1/)
+  - [Knights Tour](https://github.com/azmalshaikh/Data-Structure-and-Algorithms/blob/master/backtracking/KnightsTour.java) [GFG](https://www.geeksforgeeks.org/the-knights-tour-problem-backtracking-1/)
+  - [Kth Permutation](aikh/Data-Structure-and-Algorithms/blob/master/backtracking/KthPermutation.java)
+  - [Remove Inavlid Parentheses](https://github.com/azmalshaikh/Data-Structure-and-Algorithms/blob/master/backtracking/RemoveInvalidParentheses.java) [LeetCode](https://leetcode.com/problems/remove-invalid-parentheses/)
+  - [Word Break](https://github.com/azmalshaikh/Data-Structure-and-Algorithms/blob/master/backtracking/WordBreak.java) [GFG](https://practice.geeksforgeeks.org/problems/word-break-part-23249/1)
+  - [Word Pattern](https://github.com/azmalshaikh/Data-Structure-and-Algorithms/blob/master/backtracking/WordPattern.java) [GFG](https://practice.geeksforgeeks.org/problems/match-specific-pattern/1#)
+  - [Tug Of War](https://github.com/azmalshaikh/Data-Structure-and-Algorithms/blob/master/backtracking/TugOfWar.java) [GFG](https://www.geeksforgeeks.org/tug-of-war/)
 - Mathematice For CP
   - [Greatest Common Divisor](https://github.com/azmalshaikh/Data-Structure-and-Algorithms/blob/master/mathematics/MathematicsCP.java) (GCD)
   - [Sieve Of EratoStenes](https://github.com/azmalshaikh/Data-Structure-and-Algorithms/blob/master/mathematics/MathematicsCP.java) 
