@@ -1,0 +1,22 @@
+static int minNumber(int arr[], int low, int high) {
+    int ans = Integer.MAX_VALUE;
+
+    while(low <= high) {
+
+        int mid = (low+high)/2;
+        // Left Part Sorted
+        if(arr[mid] >= arr[low]) {
+            if(ans > arr[low]) ans = arr[low];
+            low = mid+1;
+        } 
+
+        // Right Part Sorted
+        else { 
+            if(ans > arr[mid]) ans = arr[mid];
+            high = mid-1;
+        }
+
+    }
+
+    return ans;
+}
