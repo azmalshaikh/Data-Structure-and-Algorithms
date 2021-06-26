@@ -8,4 +8,4 @@ static Node reverse(Node head) {
          cur = next;
     }
     return prev;
-}
+} 
