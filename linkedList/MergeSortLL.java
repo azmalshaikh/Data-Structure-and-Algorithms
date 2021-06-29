@@ -18,20 +18,34 @@ class Solution
     }
     
     static Node merge(Node left, Node right) {
-        Node result = null;
+        Node result = new Node(1);
+        Node temp = result;
         
-        if(left == null) return right;
-        if(right == null) return left;
-        
-        if(left.data <= right.data) {
-            result = left;
-            result.next = merge(left.next, right);
-        } else {
-            result = right;
-            result.next = merge(left, right.next);
+        while(left != null && right != null) {
+            if(left.data <= right.data) {
+                temp.next = left;
+                left = left.next;
+            } else {
+                temp.next = right;
+                right = right.next;
+            }
+            
+            temp = temp.next;
         }
         
-        return result;
+        while(left != null) {
+            temp.next = left;
+            left = left.next;
+            temp = temp.next;
+        }
+        
+        while(right != null) {
+            temp.next = right;
+            right = right.next;
+            temp = temp.next;
+        }
+        
+        return result.next;
     }
     
     static Node getMiddle(Node head) {
