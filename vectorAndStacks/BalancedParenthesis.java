@@ -1,61 +1,34 @@
-package vectorAndStacks;
-
-import java.util.Scanner;
-import java.util.Stack; 
-
-public class BalancedParenthesis {
-
-	public static void main(String[] args) {
-		
-		Scanner sc = new Scanner (System.in);
-		String expression = sc.nextLine();
-	    Stack <Character> number = new Stack <>();
-	    
-	    boolean balanced = true ;
-	    
-	    for (int j=0 ; j<expression.length() ; j++ ) {
-	        char c = expression.charAt(j) ;
-	        if(c=='(' || c=='{' || c=='[' ) {
-	            number.push(c);
-	            continue;
-	        }
-	        if(number.isEmpty()) {
-	            balanced = false ;
-	            break ;
-	        }
-	        if(c==')') {
-	            if(number.peek() == '(') {
-	                number.pop();
-	            } else {
-	                balanced = false ;
-	                break ;
-	            }
-	        }
-	        if(c=='}') {
-	            if(number.peek() == '{') {
-	                number.pop();
-	            } else {
-	                balanced = false ;
-	                break ;
-	            }
-	        }
-	        if(c==']') {
-	            if(number.peek() == '[') {
-	                number.pop();
-	            } else {
-	                balanced = false ;
-	                break ;
-	            }
-	        }
-	    }
-	    if(!number.isEmpty()) {
-	        balanced = false ;
-	    } 
-	    if(balanced){
-	        System.out.println("balanced");
-	    } else {
-	        System.out.println("not balanced");
-	    }
-	}
+class Solution
+{
+    //Function to check if brackets are balanced or not.
+    static boolean ispar(String str) {
+        Stack<Character> st = new Stack<>();
+        
+        for(int i=0; i<str.length(); i++) {
+            char c = str.charAt(i);
+            
+            if(c == '(' || c == '[' || c == '{') {
+                st.push(c);
+            } 
+            
+            else {
+                if(st.isEmpty() || !cmp(st.peek(), c) ) {
+                    return false;
+                }
+                
+                st.pop();
+            }
+        }
+        
+        return st.isEmpty();
+    }
+    
+    static boolean cmp(char a, char b) {
+        if(a == '(' && b == ')') return true;
+        else if(a == '{' && b == '}') return true;
+        else if(a == '[' && b == ']') return true;
+        
+        return false;
+    }
 
 }
