@@ -1,4 +1,3 @@
-int minEle;
 Stack<Integer> s = new Stack<>();
 
 /*returns min element from stack*/
@@ -10,7 +9,7 @@ int getMin() {
 
 /*returns poped element from stack*/
 int pop() {
-if(s.isEmpty()) return -1;
+  if(s.isEmpty()) return -1;
 
   int flag = s.pop();
   if(flag < minEle) {
