@@ -16,7 +16,6 @@ class Solution {
         }
         Stack<Pair> st = new Stack<Pair>();
         int l = s.length();
-        int count = 0;
         for(int i=0;i<l;i++) {
             if(st.size() == 0) {
                 st.push(new Pair(s.charAt(i),1));
@@ -36,14 +35,16 @@ class Solution {
                  st.push(new Pair(s.charAt(i),1));
             }
         }
-        String ans = "";
-        while(st.size() > 0) {
+        StringBuilder ans= new StringBuilder();
+        while(st.size() > 0)
+        {
             char c = st.peek().c;
-            int count = st.peek().count;
-            while(count-- > 0)
-                ans += c;
+            int cnt = st.peek().count;
+            while(cnt-- > 0)
+                ans.append(String.valueOf(c));
             st.pop();
         }
-        return ans;
+        ans.reverse();
+        return ans.toString();
     }
 }
