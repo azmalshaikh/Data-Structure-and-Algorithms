@@ -37,12 +37,6 @@ public class Mydeque <E>{
 		
 		Node <E> toRemove = head ;
 		
-		if(head.next == null) {
-			head = null ;
-			tail = null ;
-			return toRemove.data ;
-		}
-		
 		head = head.prev ;
 		head.next = null ;
 		
@@ -59,12 +53,6 @@ public class Mydeque <E>{
 		}
 		
 		Node<E> toRemove = tail ;
-		
-		if(head.next == null) {
-			head = null ;
-			tail = null ;
-			return toRemove.data ;
-		}
 		
 		tail = tail.next ;
 		tail.prev = null ;
