@@ -15,7 +15,7 @@ int Pop() {
       }
       int k = s2.pop();
       while(!s2.isEmpty()) {
-          s1.push(s2.pop());
+          s1.push(s2.pop()); 
       }
       return k;
     }
