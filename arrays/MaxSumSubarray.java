@@ -1,3 +1,5 @@
+
+// 1st Method
 static int maximumSumSubarray(int k, ArrayList<Integer> a,int n){
         
     Deque<Integer> dq = new LinkedList<>();
@@ -17,3 +19,24 @@ static int maximumSumSubarray(int k, ArrayList<Integer> a,int n){
 
     return sum;
 }
+
+// 2nd Method
+static int maximumSumSubarray(int k, ArrayList<Integer> arr,int n) {
+        int i=0, j=0;
+        
+        int curSum = 0, ans;
+        
+        for(; j<k; j++) curSum += arr.get(j);
+        
+        ans = curSum;
+        
+        for(; j<n; j++) {
+            curSum += arr.get(j);
+            curSum -= arr.get(i);
+            i++;
+            
+            ans = Math.max(ans, curSum);
+        }
+        
+        return ans;
+    }
