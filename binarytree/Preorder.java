@@ -12,3 +12,4 @@ void preorder(Node root) {
         if(cur.left != null) s.push(cur.left);
     }
 }
+ 
