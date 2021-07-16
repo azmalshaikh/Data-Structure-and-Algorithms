@@ -12,5 +12,5 @@ static void inorder(Node root) {
             System.out.print(cur.data + " ");
             cur = cur.right;
         }
-    }
+    } 
 }
