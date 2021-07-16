@@ -1,3 +1,5 @@
+// M - I
+
 public ArrayList<Integer> reverseLevelOrder(Node node) {
     ArrayList<Integer> ans = new ArrayList<>();
     Queue<Node> q = new LinkedList<>();
@@ -12,4 +14,32 @@ public ArrayList<Integer> reverseLevelOrder(Node node) {
     }
     Collections.reverse(ans);
     return ans;
+}
+
+// M-II
+class Tree
+{
+    public ArrayList<Integer> reverseLevelOrder(Node node) {
+        Queue<Node> q = new LinkedList<>();
+        ArrayList<Integer> list = new ArrayList<>();
+        Stack<Integer> st = new Stack<>();
+        
+        q.add(node);
+        
+        while(!q.isEmpty()) {
+            Node x = q.poll();
+            
+            st.push(x.data);
+            
+            if(x.right != null) q.add(x.right);
+            
+            if(x.left != null) q.add(x.left);
+        }
+        
+        while(!st.isEmpty()) {
+            list.add(st.pop());
+        }
+        
+        return list;
+    }
 }
