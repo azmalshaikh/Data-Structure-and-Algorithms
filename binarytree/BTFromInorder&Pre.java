@@ -16,7 +16,7 @@ class Solution {
     
     static Node buildTree(int inorder[], int preorder[], int si, int ei, int sp, int ep) {
         
-        if(si > ei || sp > ep) return null;
+        if(sp > ep) return null;
         
         Node toAdd = new Node(preorder[sp]);
         
