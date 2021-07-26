@@ -247,14 +247,10 @@
   - [Lucy's Neighbor's]() [GFG]()
   - [K Smallest and Largest Elements]() [GFG]()
   - [Kth Smallest Largest Element]() [GFG]()
-<!--   - []() [GFG]()
-  - []() [GFG]()
-  - []() [GFG]()
-  - []() [GFG]()
-  - []() [GFG]()
-  - []() [GFG]()
-  - []() [GFG]()
-  - []() [GFG]() -->
+  - [Binary Tree Heap or not]() [GFG]()
+  - [Merge K Sorted Array's]() [GFG]()
+  - [Reorganize String]() [GFG]()
+  - [Smallest range int K lists]() [GFG]()
 - Trees
   - Generic Tree
     - [Implementation]() [PepCoding]()
