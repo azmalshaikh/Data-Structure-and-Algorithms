@@ -29,7 +29,7 @@ public class BellmanFord {
 				int v = edge.destination;
 				int w = edge.weight;
 				
-				if(distance[u] + w < distance[v]) {
+				if(distance[u] != Integer.MAX_VALUE && distance[u] + w < distance[v]) {
 					distance[v] = distance[u] + w;
 					parent[v] = u;
 				}
@@ -42,7 +42,7 @@ public class BellmanFord {
 			int v = edge.destination;
 			int w = edge.weight;
 			
-			if(distance[u] + w < distance[v]) {
+			if(distance[u] != Integer.MAX_VALUE && distance[u] + w < distance[v]) {
 				System.out.println("Graph contains Negative weight cycle");
 				return;
 			}
