@@ -1,3 +1,4 @@
+// Here vis array is not necessary bec we are marking every arr[cr][cc] = 0 so it will never visit again because of base case arr[cc][cc] == 0 return;
 public static void connectedComp(int arr[][], boolean vis[][], int cr, int cc) {
   if(cr < 0 || cc < 0 || cr >= arr.length || cc >= arr[0].length || arr[cr][cc] == 0 || vis[cr][cc]) return;
 
