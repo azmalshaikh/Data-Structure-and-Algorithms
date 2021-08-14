@@ -26,3 +26,46 @@ class Solution {
         return dp[n];
     }
 }
+
+
+// M-2
+class Solution {
+    
+    class Pair {
+        int primeNo, pointer, value;
+        
+        public Pair(int primeNo, int pointer, int value) {
+            this.primeNo = primeNo;
+            this.pointer = pointer;
+            this.value = value;
+        }
+    }
+    
+    public int nthSuperUglyNumber(int n, int[] primes) {
+        PriorityQueue<Pair> pq = new PriorityQueue<>((o1, o2) -> o1.value - o2.value);
+        
+        for(int i=0; i<primes.length; i++) {
+            Pair toAdd = new Pair(primes[i], 1, primes[i]);
+            pq.add(toAdd);
+        }
+        
+        int dp[] = new int[n+1];
+        
+        dp[1] = 1;
+        
+        for(int i=2; i<=n;) {
+            Pair temp = pq.remove();
+            
+            if(dp[i-1] != temp.value) {
+                dp[i] = temp.value;
+                i++;
+            } 
+            
+            temp.pointer++;
+            temp.value = temp.primeNo * dp[temp.pointer];
+            pq.add(temp);
+        }
+        
+        return dp[n];
+    }
+}
