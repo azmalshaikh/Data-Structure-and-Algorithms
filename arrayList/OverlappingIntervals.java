@@ -23,3 +23,26 @@ public ArrayList<Interval> merge(ArrayList<Interval> intervals) {
 
     return res;
 }
+
+// M - 2
+class Solution {
+    
+    public int[][] merge(int[][] intervals) {
+        Arrays.sort(intervals, (a,b) -> a[0]-b[0]);
+        
+        List<int[]> ans = new ArrayList<>();
+        int newInterval[] = intervals[0];
+        ans.add(newInterval);
+        
+        for(int cur[] : intervals) {
+            if(newInterval[1] >= cur[0]) {
+                newInterval[1] = Math.max(newInterval[1], cur[1]);
+            } else {
+                newInterval = cur;
+                ans.add(newInterval);
+            }
+        }
+        
+        return ans.toArray(new int[ans.size()][2]);
+    }
+}
