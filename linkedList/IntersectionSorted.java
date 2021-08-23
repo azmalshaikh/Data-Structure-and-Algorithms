@@ -1,32 +1,26 @@
-public static Node findIntersection(Node head1, Node head2) {
-    LinkedHashSet<Integer> s = new LinkedHashSet<>();
-
-    while(head1 != null) {
-        s.add(head1.data);
-        head1 = head1.next;
-    }
-
-    LinkedHashSet<Integer> ans = new LinkedHashSet<>();
-
-    while(head2 != null) {
-        if(s.contains(head2.data)) {
-            ans.add(head2.data);
+class Sol {
+    public static Node findIntersection(Node head1, Node head2) {
+        Node ans = null, temp = null;
+        
+        while(head1 != null && head2 != null) {
+            if(head1.data == head2.data) {
+                
+                if(ans == null) {
+                    temp = ans = new Node(head1.data);
+                } else {
+                    temp.next = new Node(head1.data);
+                    temp = temp.next;
+                }
+                
+                head1 = head1.next;
+                head2 = head2.next;
+            } else if(head1.data > head2.data) {
+                head2 = head2.next;
+            } else {
+                head1 = head1.next;
+            }
         }
-        head2 = head2.next;
+        
+        return ans;
     }
-
-    Node head=null, cur=null;
-
-    for(int i: ans) {
-        Node toAdd = new Node(i);
-        if(head == null) {
-            head = toAdd;
-            cur = head;
-        } else {
-            cur.next = toAdd;
-            cur = toAdd;
-        }
-    }
-
-    return head;
 }
