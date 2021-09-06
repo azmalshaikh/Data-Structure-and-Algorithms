@@ -5,6 +5,8 @@ class Solution {
         int ans = 0, curSum = 0;
         HashMap<Integer, Integer> map = new HashMap<>();
         
+        // map.put(k, 1);
+        
         for(int i=0; i<arr.length; i++) {
             curSum += arr[i];
             
@@ -12,15 +14,11 @@ class Solution {
                 ans++;
             }
             
-            if(map.containsKey(curSum - k) && k == 0) {
+            if(map.containsKey(curSum - k)) {
                 ans += map.get(curSum - k);
             }
             
             map.put(curSum, map.getOrDefault(curSum,0) + 1);
-            
-            if(map.containsKey(curSum - k) && k != 0) {
-                ans += map.get(curSum - k);
-            }
         }
         
         return ans;
