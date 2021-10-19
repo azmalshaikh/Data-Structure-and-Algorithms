@@ -194,10 +194,10 @@
   - [LinkedList is Palindrome](https://github.com/azmalshaikh/Data-Structure-and-Algorithms/blob/master/linkedList/PalindromeLL.java) [GFG](https://practice.geeksforgeeks.org/problems/check-if-linked-list-is-pallindrome/1#)
   - [Pairs with Given Sum in DoublyLinkedList](https://github.com/azmalshaikh/Data-Structure-and-Algorithms/blob/master/linkedList/PairsDLL.java) [GFG](https://www.geeksforgeeks.org/find-pairs-given-sum-doubly-linked-list/)
   - [Sort a LinkedList containing 0's, 1's and 2's](https://github.com/azmalshaikh/Data-Structure-and-Algorithms/blob/master/linkedList/LL012.java) [GFG](https://practice.geeksforgeeks.org/problems/given-a-linked-list-of-0s-1s-and-2s-sort-it/1#)
-<!--   - []() [GFG]()
-  - []() [GFG]()
-  - []() [GFG]()
-  - []() [GFG]() -->
+  - [Clone a LinkedList]() [GFG]()
+  - [Merge k sorted LL]() [GFG]()
+  - [Design LRU Cache]() [GFG]()
+  - [Reverse In Range]() [GFG]()
 
 - Vector & Stacks
   - [Parenthesis Checker](https://github.com/azmalshaikh/Data-Structure-and-Algorithms/blob/master/vectorAndStacks/ParenthesisChecker.java) [GFG](https://practice.geeksforgeeks.org/problems/parenthesis-checker2744/1#)
