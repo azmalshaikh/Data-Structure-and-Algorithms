@@ -42,3 +42,53 @@ class Solution {
         return ans;
     }
 }
+
+// M-III
+// Using Tree
+class Solution {
+    
+    class Node {
+        Node parent = null;
+        ArrayList<Node> child = new ArrayList<>();
+        
+        public void setParent(Node parent) {
+            this.parent = parent;
+        }
+        
+        public Node getParent() {
+            return parent;
+        }
+        
+        public int getScore() {
+            if(child.size() == 0) {
+                return 1;
+            }
+            
+            int ans = 0;
+            for(Node node: child) {
+                ans += node.getScore();
+            }
+            
+            if(parent == null) return ans;
+            else return 2*ans;
+        }
+    }
+    
+    public int scoreOfParentheses(String s) {
+        Node cur = new Node();
+        Node root = cur;
+        
+        for(int i=0; i<s.length(); i++) {
+            if(s.charAt(i) == '(') {
+                Node temp = new Node();
+                cur.child.add(temp);
+                temp.setParent(cur);
+                cur = temp;
+            } else {
+                cur = cur.getParent();
+            }
+        }
+        
+        return root.getScore();
+    }
+}
