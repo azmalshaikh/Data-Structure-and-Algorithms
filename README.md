@@ -202,8 +202,6 @@
 - Vector & Stacks
   - [Parenthesis Checker](https://github.com/azmalshaikh/Data-Structure-and-Algorithms/blob/master/vectorAndStacks/ParenthesisChecker.java) [GFG](https://practice.geeksforgeeks.org/problems/parenthesis-checker2744/1#)
   - [Celebrity Problem](https://github.com/azmalshaikh/Data-Structure-and-Algorithms/blob/master/vectorAndStacks/Celebrity.java) [GFG](https://practice.geeksforgeeks.org/problems/the-celebrity-problem/1)
-  - [Geeky Buildings (Get Minimum Element)](https://github.com/azmalshaikh/Data-Structure-and-Algorithms/blob/master/vectorAndStacks/GeekyBuildings.java) [GFG](https://practice.geeksforgeeks.org/problems/355f731797ea1acbd5ab698b19eb1c3c469aa837/1/?track=30-DOC-day-18&batchId=320#)
-  - [Help Classmates](https://github.com/azmalshaikh/Data-Structure-and-Algorithms/blob/master/vectorAndStacks/HelpClassmates.java) [GFG](https://practice.geeksforgeeks.org/problems/fab3dbbdce746976ba35c7b9b24afde40eae5a04/1/?track=30-DOC-day-17&batchId=320#)
   - [Restrictive Candy Crush](https://github.com/azmalshaikh/Data-Structure-and-Algorithms/blob/master/vectorAndStacks/ModifyString.java) [GFG](https://practice.geeksforgeeks.org/problems/8c8f95810b05b4cab665f2997d36991bd58308a2/1/?track=30-DOC-day-16&batchId=320#)
   - [Stack using two Queues](https://github.com/azmalshaikh/Data-Structure-and-Algorithms/blob/master/vectorAndStacks/Stackusingtwoqueues.java) [GFG](https://practice.geeksforgeeks.org/problems/stack-using-two-queues/1)
   - [Valid Substring](https://github.com/azmalshaikh/Data-Structure-and-Algorithms/blob/master/vectorAndStacks/ValidSubstring.java) [GFG](https://practice.geeksforgeeks.org/problems/valid-substring0624/1)
