@@ -3,44 +3,20 @@ import java.util.*;
 public class Main {
 
 	public static int solution(String str) {
-		int ans = 0, i = -1, j = -1;
-		
 		HashMap<Character, Integer> map = new HashMap<>();
+		int ans = 0, j = -1;
 		
-		while(true) {
+		for(int i=0; i<str.length(); i++) {
+		    char ch = str.charAt(i);
 		    
-		    boolean f1 = false, f2 = false;
-		    
-		    // Acquire
-		    while(i < str.length()-1){
-		        f1 = true;
-		        i++;
-		        char ch = str.charAt(i);
-		        
-		        map.put(ch, map.getOrDefault(ch,0)+1);
-		        
-		        if(map.get(ch) == 2) {
-		            break;
-		        } else {
-		            ans += i -j;
-		        }
-		    }
-		    
-		    // Release
-		    while(j < i) {
-		        f2 = true;
+		    while(map.containsKey(ch)) {
 		        j++;
-		        char ch = str.charAt(j);
-		        
-		        map.put(ch, map.get(ch)-1);
-		        
-		        if(map.get(ch) == 1) {
-		            ans += i -j;
-		            break;
-		        }
+		        char c = str.charAt(j);
+		        map.put(c, map.get(c) - 1);
+		        if(map.get(c) == 0) map.remove(c);
 		    }
-		    
-		    if(!f1 && !f2) break;
+		    map.put(ch, 1);
+		    ans += i-j;
 		}
 		
 		return ans;
