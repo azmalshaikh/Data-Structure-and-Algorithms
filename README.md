@@ -117,6 +117,11 @@
   - [Find the n-th number whose binary representation is a palindrome](https://github.com/azmalshaikh/Data-Structure-and-Algorithms/blob/master/bitManipulation/PalindromicBinary.java) [GFG](https://www.geeksforgeeks.org/find-n-th-number-whose-binary-representation-palindrome/)
   - [ Find Missing And Repeating](https://github.com/azmalshaikh/Data-Structure-and-Algorithms/blob/master/bitManipulation/FindTwoElement.java) [GFG](https://practice.geeksforgeeks.org/problems/find-missing-and-repeating2512/1#)
   - [Copy Set Bits](https://github.com/azmalshaikh/Data-Structure-and-Algorithms/blob/master/bitManipulation/Copysetbits.java) [GFG](https://practice.geeksforgeeks.org/problems/copy-set-bits-in-range0623/1#)
+  - [Divide two integers](https://github.com/azmalshaikh/Data-Structure-and-Algorithms/blob/master/bitManipulation/DivideTwoIntegers.java) [LeetCode](https://leetcode.com/problems/divide-two-integers/)
+  - [Print Abbravations](https://github.com/azmalshaikh/Data-Structure-and-Algorithms/blob/master/bitManipulation/PrintAbbreviations.java)
+  - [Swap all odd and even bits](https://github.com/azmalshaikh/Data-Structure-and-Algorithms/blob/master/bitManipulation/Swap.java) [GFG](https://practice.geeksforgeeks.org/problems/swap-all-odd-and-even-bits-1587115621/1)
+  - [Nqueen](https://github.com/azmalshaikh/Data-Structure-and-Algorithms/blob/master/bitManipulation/nQueen.java)
+  - Solve Soduku [GFG]()
 - Recursion
   - [Basic](https://github.com/azmalshaikh/Data-Structure-and-Algorithms/blob/master/recursion/MainClass.java)
   - [FloodFill](https://github.com/azmalshaikh/Data-Structure-and-Algorithms/blob/master/recursion/AdvancedRecursion.java)
