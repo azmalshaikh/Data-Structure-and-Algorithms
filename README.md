@@ -156,7 +156,7 @@
   - [N Queen Problem](https://github.com/azmalshaikh/Data-Structure-and-Algorithms/blob/master/backtracking/nQueen.java) [GFG](https://practice.geeksforgeeks.org/problems/n-queen-problem/0)
   - [K Length Words](https://github.com/azmalshaikh/Data-Structure-and-Algorithms/blob/master/backtracking/KnightsTour.java) [GFG](https://www.geeksforgeeks.org/the-knights-tour-problem-backtracking-1/)
   - [Knights Tour](https://github.com/azmalshaikh/Data-Structure-and-Algorithms/blob/master/backtracking/KnightsTour.java) [GFG](https://www.geeksforgeeks.org/the-knights-tour-problem-backtracking-1/)
-  - [Kth Permutation](aikh/Data-Structure-and-Algorithms/blob/master/backtracking/KthPermutation.java)
+  - [Kth Permutation](https://github.com/azmalshaikh/Data-Structure-and-Algorithms/blob/master/backtracking/KthPermutation.java) [GFG](https://www.geeksforgeeks.org/find-the-k-th-permutation-sequence-of-first-n-natural-numbers/)
   - [Remove Inavlid Parentheses](https://github.com/azmalshaikh/Data-Structure-and-Algorithms/blob/master/backtracking/RemoveInvalidParentheses.java) [LeetCode](https://leetcode.com/problems/remove-invalid-parentheses/)
   - [Word Break](https://github.com/azmalshaikh/Data-Structure-and-Algorithms/blob/master/backtracking/WordBreak.java) [GFG](https://practice.geeksforgeeks.org/problems/word-break-part-23249/1)
   - [Word Pattern](https://github.com/azmalshaikh/Data-Structure-and-Algorithms/blob/master/backtracking/WordPattern.java) [GFG](https://practice.geeksforgeeks.org/problems/match-specific-pattern/1#)
