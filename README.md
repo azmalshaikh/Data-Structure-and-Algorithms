@@ -40,7 +40,7 @@
   - [Factorial of large Numbers](https://github.com/azmalshaikh/Data-Structure-and-Algorithms/blob/master/arrays/FactorialOfLargeNumbers.java) [GFG](https://practice.geeksforgeeks.org/problems/factorials-of-large-numbers2508/1#)
   - [Longest Consecutive Sequence](https://github.com/azmalshaikh/Data-Structure-and-Algorithms/blob/master/arrays/LongestConsequence.java) [GFG](https://practice.geeksforgeeks.org/problems/longest-consecutive-subsequence2449/1#)
   - [Kadane's Algorithm ](https://github.com/azmalshaikh/Data-Structure-and-Algorithms/blob/master/arrays/MaxSumSubarray1.java) [GFG](https://practice.geeksforgeeks.org/problems/kadanes-algorithm-1587115620/1#)
-  - [Best time to buy and sell stocks - l](https://github.com/azmalshaikh/Data-Structure-and-Algorithms/blob/master/arrays/Stocks-1.java) [GFG](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)
+  - [Best time to buy and sell stocks - l](https://github.com/azmalshaikh/Data-Structure-and-Algorithms/blob/master/arrays/Stocks-1.java) [LeetCode](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)
   - [Best time to buy and sell stocks - ll](https://github.com/azmalshaikh/Data-Structure-and-Algorithms/blob/master/arrays/Stocks-2.java) [GFG](https://practice.geeksforgeeks.org/problems/stock-buy-and-sell-1587115621/1#)
   - [Trapping Rain Water](https://github.com/azmalshaikh/Data-Structure-and-Algorithms/blob/master/arrays/TrappingRainWater.java) [GFG](https://practice.geeksforgeeks.org/problems/trapping-rain-water-1587115621/1#)
   - [Container with Most Water]() [GFG]()
