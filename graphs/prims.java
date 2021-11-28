@@ -93,3 +93,44 @@ public class Prims {
 		}
 	}
 }
+
+// Question on gfg one
+class Solution {
+    static class Pair implements Comparable<Pair> {
+        int vt, wt;
+        
+        public Pair(int vt, int wt) {
+            this.vt = vt;
+            this.wt = wt;
+        }
+        
+        public int compareTo(Pair p) {
+            return this.wt - p.wt;
+        }
+    }
+    
+    //Function to find sum of weights of edges of the Minimum Spanning Tree.
+    static int spanningTree(int V, ArrayList<ArrayList<ArrayList<Integer>>> adj) {
+        int ans = 0;
+        
+        PriorityQueue<Pair> q = new PriorityQueue<>();
+        boolean vis[] = new boolean[V];
+        q.add(new Pair(0,0));
+        
+        while(!q.isEmpty()) {
+            Pair rem = q.remove();
+            if(vis[rem.vt]) continue;
+            
+            ans += rem.wt;
+            vis[rem.vt] = true;
+            
+            for(ArrayList<Integer> edge: adj.get(rem.vt)) {
+                if(!vis[edge.get(0)]) {
+                    q.add(new Pair(edge.get(0), edge.get(1)));
+                }
+            }
+        }
+        
+        return ans;
+    }
+}
