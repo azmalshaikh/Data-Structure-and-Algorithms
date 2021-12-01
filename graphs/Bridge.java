@@ -35,14 +35,14 @@ class Solution {
             } else { // Forward Edge
                 dfs(adj, nbr, src, vis, c, d);
                 
-                if(low[nbr] > low[src]) {
+                low[src] = Math.min(low[src], low[nbr]);
+                
+                if(low[nbr] > disc[src]) {
                     if( (c==src && d==nbr) || (d==src && c==nbr) ) {
                         ans = true;
                         return;
                     }
                 }
-                
-                low[src] = Math.min(low[src], low[nbr]);
             }
         }
     }
