@@ -338,7 +338,7 @@
     - [Top View](https://github.com/azmalshaikh/Data-Structhttps://practice.geeksforgeeks.org/problems/left-view-of-binary-tree/1ure-and-Algorithms/blob/master/binarytree/TopView.java) [GFG](https://practice.geeksforgeeks.org/problems/top-view-of-binary-tree/1)
     - [Bottom View](https://github.com/azmalshaikh/Data-Structure-and-Algorithms/blob/master/binarytree/BottomView.java) [GFG](https://practice.geeksforgeeks.org/problems/bottom-view-of-binary-tree/1)
     - [Vertical Order Traversal](https://github.com/azmalshaikh/Data-Structure-and-Algorithms/blob/master/binarytree/verticalOrder.java) [LeetCode](https://leetcode.com/problems/vertical-order-traversal-of-a-binary-tree/)
-    - [Vertical Order Traversal (M-2)](https://github.com/azmalshaikh/Data-Structure-and-Algorithms/blob/master/binarytree/verticalOrder3.java) [LeetCode](https://leetcode.com/problems/vertical-order-traversal-of-a-binary-tree/)
+    - [Vertical Order Traversal (M-2)](https://github.com/azmalshaikh/Data-Structure-and-Algorithms/blob/master/binarytree/verticalOrder2.java) [LeetCode](https://leetcode.com/problems/vertical-order-traversal-of-a-binary-tree/)
     - [Diagonal Traversal](https://github.com/azmalshaikh/Data-Structure-and-Algorithms/blob/master/binarytree/DiagonalTraversal.java) [GFG]()
     - [Vertical Order Traversal With a constraint](https://github.com/azmalshaikh/Data-Structure-and-Algorithms/blob/master/binarytree/verticalOrder3.java) [PepCoding](https://www.pepcoding.com/resources/data-structures-and-algorithms-in-java-levelup/trees/vertical-order-traversal-of-a-binarytree-ii/ojquestion)
     - Searialize and Deserialize [LeetCode](https://leetcode.com/problems/serialize-and-deserialize-binary-tree/)
