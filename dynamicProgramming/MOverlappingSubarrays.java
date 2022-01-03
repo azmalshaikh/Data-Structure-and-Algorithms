@@ -24,6 +24,33 @@ public class Main {
 		return dp[idx][m];
 	}
 	
+	// Tabulation
+	public static int solution(int[] arr, int m, int k){
+		int dp[][] = new int[m+1][arr.length+1];
+		int prefixSum[] = new int[arr.length];
+		
+		int wsum = 0;
+		for(int i=arr.length-1; i>=arr.length-k; i--) {
+			wsum += arr[i];
+		}
+
+		prefixSum[arr.length-1] = wsum;
+		for(int i=arr.length-k-1, j=arr.length-1; i>=0; i--,j--) {
+			wsum = wsum + arr[i] - arr[j];
+			prefixSum[i + k - 1] = wsum;
+		}
+
+		for(int i=1; i<dp.length; i++) {
+			for(int j=1; j<dp[0].length; j++) {
+				dp[i][j] = dp[i][j-1];
+
+				if(j >= k) dp[i][j] = Math.max(dp[i][j], prefixSum[j-1] + dp[i-1][j-k]);
+			}
+		}
+		
+		return dp[dp.length-1][dp[0].length-1];
+	}
+	
 	public static void main(String[] args) {
 		Scanner scn = new Scanner(System.in);
 		int n = scn.nextInt();
