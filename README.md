@@ -193,7 +193,7 @@
   - [Count Triplets](https://github.com/azmalshaikh/Data-Structure-and-Algorithms/blob/master/linkedList/countTriplets.java) [GFG](https://practice.geeksforgeeks.org/problems/87f12e5c728d69a5322634776b54c75897d14daa/1/?track=30-DOC-day-15&batchId=320#)
   - [Intersection of two sorted LL](https://github.com/azmalshaikh/Data-Structure-and-Algorithms/blob/master/linkedList/IntersectionSorted.java) [GFG](https://practice.geeksforgeeks.org/problems/intersection-of-two-sorted-linked-lists/1)
   - [Union of two LL](https://github.com/azmalshaikh/Data-Structure-and-Algorithms/blob/master/linkedList/UnionLL.java) [GFG](https://practice.geeksforgeeks.org/problems/union-of-two-linked-list/1)
-  - Add 1 Number in LinkedList
+  - Add 1 Number in LinkedList [GFG](https://practice.geeksforgeeks.org/problems/add-1-to-a-number-represented-as-linked-list/1)
   - [Add Two LinkedList](https://github.com/azmalshaikh/Data-Structure-and-Algorithms/blob/master/linkedList/AddTwoLL.java) [GFG](https://practice.geeksforgeeks.org/problems/add-two-numbers-represented-by-linked-lists/1)
   - [Split a circular LiinkedList into two halves](https://github.com/azmalshaikh/Data-Structure-and-Algorithms/blob/master/linkedList/SplitCLL.java) [GFG](https://practice.geeksforgeeks.org/problems/split-a-circular-linked-list-into-two-halves/1#)
   - [Mutliply two LinkedList](https://github.com/azmalshaikh/Data-Structure-and-Algorithms/blob/master/linkedList/MultiplyLL.java) [GFG](https://practice.geeksforgeeks.org/problems/multiply-two-linked-lists/1#)
