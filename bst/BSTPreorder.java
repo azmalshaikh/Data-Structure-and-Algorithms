@@ -13,3 +13,4 @@ public static TreeNode bstFromPreorder(int[] preorder, int start, int end) {
 public static TreeNode bstFromPreorder(int[] preorder) {
     return bstFromPreorder(preorder, Integer.MIN_VALUE, Integer.MAX_VALUE);
 }
+ 
